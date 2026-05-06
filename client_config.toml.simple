@@ -61,8 +61,11 @@ LISTEN_PORT = 1080
 
 # Local SOCKS5 authentication.
 # This protects the local proxy itself, not the remote server.
+# Personal note: enabled auth since I sometimes expose this on 0.0.0.0 for
+# other devices on my LAN — better to have credentials set and ready.
 SOCKS5_AUTH = false
 SOCKS5_USER = "master_dns_vpn"
+# Personal note: change this password before exposing on non-loopback interfaces.
 SOCKS5_PASS = "master_dns_vpn"
 
 # ------------------------------------------------------------------------------
@@ -72,10 +75,4 @@ SOCKS5_PASS = "master_dns_vpn"
 # - Controls local DNS cache size, TTL, pending timeout, and fragment assembly.
 # ------------------------------------------------------------------------------
 
-# When true, the client exposes a local DNS server on LOCAL_DNS_IP:LOCAL_DNS_PORT.
-LOCAL_DNS_ENABLED = false
-LOCAL_DNS_IP = "127.0.0.1"
-LOCAL_DNS_PORT = 53
-
-# Local DNS cache sizing.
-# Must b
+# When true, the client exposes a local 
