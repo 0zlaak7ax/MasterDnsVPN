@@ -68,9 +68,7 @@ LISTEN_PORT = 1080
 SOCKS5_AUTH = true
 SOCKS5_USER = "master_dns_vpn"
 # Personal note: change this password before exposing on non-loopback interfaces.
+# TODO: generate a random password here instead of the placeholder.
 SOCKS5_PASS = "master_dns_vpn"
 
-# ------------------------------------------------------------------------------
-# 3) Local DNS Service
-# What this section does:
-# - Controls the optional buil
+# ------
