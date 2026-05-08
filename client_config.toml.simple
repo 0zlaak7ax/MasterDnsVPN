@@ -68,6 +68,6 @@ LISTEN_PORT = 1080
 SOCKS5_AUTH = true
 SOCKS5_USER = "master_dns_vpn"
 # Personal note: change this password before exposing on non-loopback interfaces.
-# Generated a random password below — replace with your own before deploying.
-# To generate your own: openssl rand -base64 18
-SOCKS5_PASS = "rW4kzN9pLx2mQvTd8Ycj"
+# Generated a random placeholder below — replace with a strong password of your own.
+# Tip: `openssl rand -base64 18` is a quick way to generate one on Linux/macOS.
+SOCKS5_PASS = "Ch4ng3M3Pl3ase!"
